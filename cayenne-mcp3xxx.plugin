@@ -11,46 +11,39 @@ module=cayenne-mcp3xxx
 class=MCPInput
 init_args={"adc":"cayenne-mcp3xxx:MCP"}
 read=read
-read_args={"channel":0}
+read_args={"channel":$channel}
 
 [MCP_CH1]
 enabled=true
 inherit=MCP_CH0
 channel=1
-read_args={"channel":1}
 
 [MCP_CH2]
 enabled=true
 inherit=MCP_CH0
 channel=2
-read_args={"channel":2}
 
 [MCP_CH3]
 enabled=true
 inherit=MCP_CH0
 channel=3
-read_args={"channel":3}
 
 [MCP_CH4]
 enabled=true
 inherit=MCP_CH0
 channel=4
-read_args={"channel":4}
 
 [MCP_CH5]
 enabled=true
 inherit=MCP_CH0
 channel=5
-read_args={"channel":5}
 
 [MCP_CH6]
 enabled=true
 inherit=MCP_CH0
 channel=6
-read_args={"channel":6}
 
 [MCP_CH7]
 enabled=true
 inherit=MCP_CH0
 channel=7
-read_args={"channel":7}

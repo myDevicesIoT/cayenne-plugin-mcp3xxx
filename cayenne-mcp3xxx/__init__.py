@@ -1,9 +1,6 @@
 """
 This module provides classes for interfacing with MCP3XXX extensions.
 """
-import os
-import time
-
 from myDevices.devices.spi import SPI
 from myDevices.devices.analog import ADC
 from myDevices.plugins.analog import AnalogInput

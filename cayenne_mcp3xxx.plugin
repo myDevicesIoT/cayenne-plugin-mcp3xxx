@@ -1,15 +1,15 @@
 [MCP]
 enabled=true
-module=cayenne-mcp3xxx
+module=cayenne_mcp3xxx
 class=MCP3008
 read=read
 
 [MCP_CH0]
 enabled=true
 channel=0
-module=cayenne-mcp3xxx
+module=cayenne_mcp3xxx
 class=MCPInput
-init_args={"plugin_id":"cayenne-mcp3xxx:MCP"}
+init_args={"plugin_id":"cayenne_mcp3xxx:MCP"}
 read=read
 read_args={"channel":$channel}
 

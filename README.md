@@ -22,10 +22,10 @@ A plugin allowing the [Cayenne Pi Agent](https://github.com/myDevicesIoT/Cayenne
 
 ### 2. Setting the device class
 
-   Specify the device you are using by setting the `class` value under the `MCP` section in the `cayenne-mcp3xxx.plugin` file.
-   By default this is set to `MCP3008` but it can be set to use any of the classes in the `cayenne-mcp3xxx` module. If your 
+   Specify the device you are using by setting the `class` value under the `MCP` section in the `cayenne_mcp3xxx.plugin` file.
+   By default this is set to `MCP3008` but it can be set to use any of the classes in the `cayenne_mcp3xxx` module. If your 
    device has fewer channels than the `MCP3008` or you do not want the raw channel values to be displayed in the Cayenne 
-   dashboard you can disable any of the individual input sections in `cayenne-mcp3xxx.plugin`.
+   dashboard you can disable any of the individual input sections in `cayenne_mcp3xxx.plugin`.
 
 ### 3. Restarting the agent
 
